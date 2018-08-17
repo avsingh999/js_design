@@ -1,16 +1,18 @@
 body{
-	background-color:#216;
+	background-color:#fff;
 	margin: 0;
-	font-family: "Montserrat","Avenir";
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .square{
 	width:30%;
+	
 	background:white;
 	padding-bottom: 30%;
 	float: left;
 	margin:1.66%;
 	border-radius: 20%;
-	transition: background 1.8s; 
+	border-color: #000;
+	transition: background 1s; 
 }
 #container{
 	margin: 0 auto;
@@ -28,30 +30,40 @@ h1{
 }
 #strip{
 	background-color: white;
-	height:20px;
+	height:35px;
 	text-align: center;
 	color: steelblue;
+	box-shadow: 1px 2px 4px rgba(255,255,255);
+    border-width: 5px;
 }
 #color1{
-	font-size: 200%;
+	font-size: 150%;
 }
 
 button{
+	margin-left: 16%;
+	margin-top: 2px;
 	border: none;
 	background: none;
 	text-transform: uppercase;
+	font-weight: 300;
 	height: 100%
 	font-size:700px;
 	color: steelblue;
 	letter-spacing: 1px;
-	font-size: inherit;
-	transition: all 1.3s;
+	font-size: 20px;
+	transition: all .3s;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #message{
 	display: inline-block;
-	width: 20%;
+	/*box-shadow: 1px 2px 4px #404;*/
+	width: 25%;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 button:hover{
 	color: white;
+	box-shadow: 1px 2px 4px #404;
 	background:steelblue;
 }

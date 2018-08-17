@@ -55,10 +55,6 @@ new_color.addEventListener("click",function(){
 });
 
 
-
-
-
-
 for (var i = 0;i<squares.length;i++){
 squares[i].style.background = colors[i];
 squares[i].addEventListener("click",function(){
@@ -72,14 +68,13 @@ squares[i].addEventListener("click",function(){
 			new_color.textContent="play again";
 		}
 		else{
-			this.style.background="#216";
+			this.style.background="#fff";
 			message_Display.textContent="tryagain"
 		}
 
 		
 	
 	});
-// document.write("ds")
 }
 
 function change_color(color){
